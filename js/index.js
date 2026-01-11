@@ -49,41 +49,54 @@
 // console.log(digitize(35231));
 
 //& 6-  Counting sheep...
-function countSheeps(arrayOfSheep) {
-  let count = 0;
-  for (let i = 0; i < arrayOfSheep.length; i++) {
-    if (arrayOfSheep[i]) count++;
-  }
-  return count;
+// function countSheeps(arrayOfSheep) {
+//   let count = 0;
+//   for (let i = 0; i < arrayOfSheep.length; i++) {
+//     if (arrayOfSheep[i]) count++;
+//   }
+//   return count;
 
-  // Another Solution -> return arrayOfSheep.filter(Boolean).length
+// Another Solution -> return arrayOfSheep.filter(Boolean).length
+// }
+
+// const sheeps = [
+//   true,
+//   true,
+//   true,
+//   false,
+//   true,
+//   true,
+//   true,
+//   true,
+//   true,
+//   false,
+//   true,
+//   false,
+//   true,
+//   false,
+//   false,
+//   true,
+//   true,
+//   true,
+//   true,
+//   true,
+//   false,
+//   false,
+//   true,
+//   true,
+// ];
+
+// console.log(countSheeps(sheeps));
+
+//& 7-  Opposite number
+// function opposite(number) {
+//   return -number;
+// }
+// console.log(opposite(33));
+
+
+//& 8-  Returning negative
+function makeNegative(num) {
+  return num>0? -num :num
 }
-
-const sheeps = [
-  true,
-  true,
-  true,
-  false,
-  true,
-  true,
-  true,
-  true,
-  true,
-  false,
-  true,
-  false,
-  true,
-  false,
-  false,
-  true,
-  true,
-  true,
-  true,
-  true,
-  false,
-  false,
-  true,
-  true,
-];
-
-console.log(countSheeps(sheeps));
+console.log(makeNegative(-5));
