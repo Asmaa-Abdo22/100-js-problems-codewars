@@ -94,9 +94,29 @@
 // }
 // console.log(opposite(33));
 
-
 //& 8-  Returning negative
-function makeNegative(num) {
-  return num>0? -num :num
+// function makeNegative(num) {
+//   return num>0? -num :num
+// }
+// console.log(makeNegative(-5));
+
+//& 9- Jenny's secret message
+// function greet(name) {
+//   if (name === "Johnny") return "Hello, my love!";
+//   return "Hello, " + name + "!";
+// }
+// console.log(greet("Johnny"));
+
+//& 10- A Needle In The HayStack
+function findNeedle(haystack) {
+  return haystack.reduce(
+    (result, item, index) =>
+      item === "needle" ? `found the needle at position ${index}` : result,
+    ""
+  );
+  // for (let i = 0; i < haystack.length; i++) {
+  //   if (haystack[i] === "needle") {
+  //     return `found the needle at position ${i}`;
 }
-console.log(makeNegative(-5));
+let example = ["hay", "junk", "hay", "hay", "needle", "moreJunk", "randomJunk"];
+console.log(findNeedle(example));
