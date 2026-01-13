@@ -108,15 +108,47 @@
 // console.log(greet("Johnny"));
 
 //& 10- A Needle In The HayStack
-function findNeedle(haystack) {
-  return haystack.reduce(
-    (result, item, index) =>
-      item === "needle" ? `found the needle at position ${index}` : result,
-    ""
-  );
-  // for (let i = 0; i < haystack.length; i++) {
-  //   if (haystack[i] === "needle") {
-  //     return `found the needle at position ${i}`;
+// function findNeedle(haystack) {
+//   return haystack.reduce(
+//     (result, item, index) =>
+//       item === "needle" ? `found the needle at position ${index}` : result,
+//     ""
+//   );
+//   // for (let i = 0; i < haystack.length; i++) {
+//   //   if (haystack[i] === "needle") {
+//   //     return `found the needle at position ${i}`;
+// }
+// let example = ["hay", "junk", "hay", "hay", "needle", "moreJunk", "randomJunk"];
+// console.log(findNeedle(example));
+
+//& 11-  Count of positives / sum of negatives
+// function countPositivesSumNegatives(arr) {
+//   let resultArr = [];
+//   let countPos = 0;
+//   let negSum = 0;
+//   if (!arr || arr.length === 0) {
+//     return [];
+//   }
+//   for (let i = 0; i < arr.length; i++) {
+//     if (arr[i] > 0) {
+//       countPos++;
+//     } else if (arr[i] < 0) {
+//       negSum += arr[i];
+//     }
+//   }
+//   resultArr.unshift(countPos);
+//   resultArr.push(negSum);
+//   return resultArr;
+// }
+// console.log(
+//   countPositivesSumNegatives([
+//     1, 2, 3, 4, 5, 6, 7, 8, 9, 10, -11, -12, -13, -14, -15,
+//   ])
+// );
+
+//& 12-  Double Char
+function doubleChar(str) {
+  return str.split("").map((item) => item + item).join("")
 }
-let example = ["hay", "junk", "hay", "hay", "needle", "moreJunk", "randomJunk"];
-console.log(findNeedle(example));
+
+console.log(doubleChar("String"));
