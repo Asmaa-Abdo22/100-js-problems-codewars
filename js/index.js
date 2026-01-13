@@ -180,7 +180,7 @@
 // console.log(basicOp("-", 4, 7));
 
 //& 14-  Double Char
-function squareOrSquareRoot(array) {
+function squareOrSquareRoot(arr) {
   
   return arr.map(num => {
     const sqrt = Math.sqrt(num);
