@@ -147,8 +147,46 @@
 // );
 
 //& 12-  Double Char
-function doubleChar(str) {
-  return str.split("").map((item) => item + item).join("")
+// function doubleChar(str) {
+//   return str.split("").map((item) => item + item).join("")
+// }
+
+// console.log(doubleChar("String"));
+
+//& 13-  Basic Mathematical Operations
+// function basicOp(operation, value1, value2) {
+//   // if (operation === "+") {
+//   //   return value1 + value2;
+//   // } else if (operation === "-") {
+//   //   return value1 - value2;
+//   // } else if (operation === "*") {
+//   //   return value1 * value2;
+//   // } else {
+//   //   return value1 / value2;
+//   // }
+//   // Another solution -->
+//   switch (operation) {
+//     case "+":
+//       return value1 + value2;
+//     case "-":
+//       return value1 - value2;
+//     case "*":
+//       return value1 * value2;
+//     case "/":
+//       return value1 / value2;
+//   }
+// }
+
+// console.log(basicOp("-", 4, 7));
+
+//& 14-  Double Char
+function squareOrSquareRoot(array) {
+  
+  return arr.map(num => {
+    const sqrt = Math.sqrt(num);
+    return Number.isInteger(sqrt) ? sqrt : num * num;
+  });
+  
 }
 
-console.log(doubleChar("String"));
+console.log(squareOrSquareRoot([4, 3, 9, 7, 2, 1]));
