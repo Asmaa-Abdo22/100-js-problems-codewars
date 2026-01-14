@@ -180,13 +180,32 @@
 // console.log(basicOp("-", 4, 7));
 
 //& 14-  Double Char
-function squareOrSquareRoot(arr) {
-  
-  return arr.map(num => {
-    const sqrt = Math.sqrt(num);
-    return Number.isInteger(sqrt) ? sqrt : num * num;
-  });
-  
-}
+// function squareOrSquareRoot(arr) {
 
-console.log(squareOrSquareRoot([4, 3, 9, 7, 2, 1]));
+//   return arr.map(num => {
+//     const sqrt = Math.sqrt(num);
+//     return Number.isInteger(sqrt) ? sqrt : num * num;
+//   });
+
+// }
+
+// console.log(squareOrSquareRoot([4, 3, 9, 7, 2, 1]));
+
+//& 15- Count By X
+// function countBy(x, n) {
+//   let z = [];
+//   for (let i = 1; i <= n; i++) {
+//     z.push(x * i);
+//   }
+//   return z;
+
+// }
+// console.log(countBy(3, 4));
+
+
+//& 16- Remove String Spaces
+function noSpace(x){
+// return x.replaceAll(" ","")
+return x.split(" ").join("")
+}
+console.log(noSpace("8aaaaa dddd r     "));
