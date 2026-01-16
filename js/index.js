@@ -202,10 +202,26 @@
 // }
 // console.log(countBy(3, 4));
 
-
 //& 16- Remove String Spaces
-function noSpace(x){
-// return x.replaceAll(" ","")
-return x.split(" ").join("")
+// function noSpace(x){
+//  return x.replaceAll(" ","")
+// return x.split(" ").join("")
+// }
+// console.log(noSpace("8aaaaa dddd r     "));
+
+//& 17-  Invert values
+// function invert(arr) {
+//   return arr.map((item) => -item);
+// }
+
+// console.log(invert([1, -2, 3, -4, 5]));
+
+//& 18- Convert boolean values to strings
+function boolToWord(bool) {
+  if (bool) {
+    return "Yes";
+  } else {
+    return "No";
+  }
 }
-console.log(noSpace("8aaaaa dddd r     "));
+console.log(boolToWord(true));
