@@ -232,9 +232,21 @@
 // }
 // console.log(solution("world"));
 
-
- //& 20- Keep Hydrated
+//& 20- Keep Hydrated
 // function litres(time) {
 //   return Math.floor(time * 0.5);
 // }
 // console.log(litres(3));
+//& 21-  Convert a Number to a String
+// function numberToString(num) {
+// //   return num.toString()
+// return String(num)
+// }
+// console.log(numberToString(3));
+
+//& 22- Keep Hydrated
+function findAverage(array) {
+  if (array.length === 0) return 0;
+  return array.reduce((sum, item) => (sum += item), 0) / array.length;
+}
+console.log(findAverage([1, 2, 3, 4]));
