@@ -217,11 +217,24 @@
 // console.log(invert([1, -2, 3, -4, 5]));
 
 //& 18- Convert boolean values to strings
-function boolToWord(bool) {
-  if (bool) {
-    return "Yes";
-  } else {
-    return "No";
-  }
-}
-console.log(boolToWord(true));
+// function boolToWord(bool) {
+//   if (bool) {
+//     return "Yes";
+//   } else {
+//     return "No";
+//   }
+// }
+// console.log(boolToWord(true));
+
+//& 19- Reversed Strings
+// function solution(str) {
+//   return str.split("").reverse().join("");
+// }
+// console.log(solution("world"));
+
+
+ //& 20- Keep Hydrated
+// function litres(time) {
+//   return Math.floor(time * 0.5);
+// }
+// console.log(litres(3));
