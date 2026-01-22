@@ -268,3 +268,36 @@
 //  // return Array.from({ length: n }).map((_, i) => i + 1);
 // }
 // console.log(monkeyCount(5));
+
+//& 25- Welcome
+// function welcome(language) {
+//   const languages = {
+//     english: "Welcome",
+//     czech: "Vitejte",
+//     danish: "Velkomst",
+//     dutch: "Welkom",
+//     estonian: "Tere tulemast",
+//     finnish: "Tervetuloa",
+//     flemish: "Welgekomen",
+//     french: "Bienvenue",
+//     german: "Willkommen",
+//     irish: "Failte",
+//     italian: "Benvenuto",
+//     latvian: "Gaidits",
+//     lithuanian: "Laukiamas",
+//     polish: "Witamy",
+//     portuguese: "Bem-vindo",
+//     spanish: "Bienvenido",
+//     swedish: "Valkommen",
+//     welsh: "Croeso",
+//   };
+//   return languages[language] || languages.english;
+// }
+// console.log(welcome("dutch"));
+
+//& 26- Sentence Smash
+
+// function smash(words) {
+//   return words.join(" ");
+// }
+// console.log(smash(["hello", "world", "this", "is", "great"]));
