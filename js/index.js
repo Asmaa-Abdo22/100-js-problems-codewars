@@ -244,9 +244,27 @@
 // }
 // console.log(numberToString(3));
 
-//& 22- Keep Hydrated
-function findAverage(array) {
-  if (array.length === 0) return 0;
-  return array.reduce((sum, item) => (sum += item), 0) / array.length;
-}
-console.log(findAverage([1, 2, 3, 4]));
+//& 22- Find Average
+// function findAverage(array) {
+//   if (array.length === 0) return 0;
+//   return array.reduce((sum, item) => (sum += item), 0) / array.length;
+// }
+// console.log(findAverage([1, 2, 3, 4]));
+
+//& 23- Convert a String to a Number
+// const stringToNumber = function(str){
+
+//  return Number(str)
+// }
+// console.log(stringToNumber("1234"));
+//& 24- Count The Monkeys
+
+// function monkeyCount(n) {
+//   let result=[]
+//   for(let i=1 ;i<=n;i++){
+//     result.push(i)
+//   }
+//   return result
+//  // return Array.from({ length: n }).map((_, i) => i + 1);
+// }
+// console.log(monkeyCount(5));
