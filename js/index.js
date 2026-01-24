@@ -351,3 +351,18 @@
 //   return bonus ? `£${salary * 10}` : `£${salary}`;
 // }
 // console.log(bonusTime(10000, true));
+
+//& 29- removeExclamationMarks
+// function removeExclamationMarks(s) {
+//   return s.split("!").join("")
+// }
+// console.log(removeExclamationMarks("Hello World!"))
+
+//& 30- areYouPlayingBanjo
+
+// function areYouPlayingBanjo(name) {
+//   return name.startsWith("r") || name.startsWith("R")
+//     ? name + " plays banjo"
+//     : name + " does not play banjo";
+// }
+// console.log(areYouPlayingBanjo("aolf"));
