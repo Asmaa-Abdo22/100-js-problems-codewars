@@ -366,3 +366,21 @@
 //     : name + " does not play banjo";
 // }
 // console.log(areYouPlayingBanjo("aolf"));
+
+//& 31- Remove First and Last Character
+// function removeChar(str) {
+//   if (str.length < 2) return " ";
+//   return str.slice(1,-1)
+// }
+// console.log(removeChar("eloquent"));
+
+//& 32- Unfinished Loop
+// function createArray(number) {
+//   const newArray = [];
+//   for (let counter = 1; counter <= number; counter++ ) {
+//     newArray.push(counter);
+//   }
+//   return newArray;
+// }
+
+// console.log(createArray(5));
