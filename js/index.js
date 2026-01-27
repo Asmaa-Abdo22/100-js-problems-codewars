@@ -398,6 +398,26 @@
 //   return total;
 // }
 //& 34- Exclusive "or" (xor) Logical Operator
-function xor(a, b) {
-  return a===b? false:true
-}
+// function xor(a, b) {
+//   return a===b? false:true
+// }
+
+//& 35- Find the first non consecutive number
+// function firstNonConsecutive(arr) {
+//   for (let i = 1; i < arr.length; i++) {
+   //[1, 2, 3, 4, 6]
+//     if (arr[i] !== arr[i - 1] + 1) {
+//       return arr[i];
+//     }
+//   }
+//   return null;
+// }
+
+//& 36- Volume Of a Cubiod
+
+// class Kata {
+//   static getVolumeOfCuboid(length, width, height) {
+//     return length * width * height;
+//   }
+// }
+// console.log(Kata.getVolumeOfCuboid(2, 3, 4));
