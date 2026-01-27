@@ -384,3 +384,20 @@
 // }
 
 // console.log(createArray(5));
+
+//& 33- Transportation On Vacation
+// function rentalCarCost(d) {
+//   let total = d * 40;
+
+//   if (d >= 7) {
+//     total -= 50;
+//   } else if (d >= 3) {
+//     total -= 20;
+//   }
+
+//   return total;
+// }
+//& 34- Exclusive "or" (xor) Logical Operator
+function xor(a, b) {
+  return a===b? false:true
+}
