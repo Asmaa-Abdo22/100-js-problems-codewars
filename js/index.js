@@ -421,3 +421,13 @@
 //   }
 // }
 // console.log(Kata.getVolumeOfCuboid(2, 3, 4));
+//& 37- Formatting To Decimal Places 
+function hexToDec(hexString){
+return parseInt(hexString,16)
+}
+
+//& 38- Grasshopper - Basic Function Fixer
+function addFive(num) {
+  var total = num + 5
+  return total
+}
