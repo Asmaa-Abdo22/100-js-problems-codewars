@@ -405,7 +405,7 @@
 //& 35- Find the first non consecutive number
 // function firstNonConsecutive(arr) {
 //   for (let i = 1; i < arr.length; i++) {
-   //[1, 2, 3, 4, 6]
+//[1, 2, 3, 4, 6]
 //     if (arr[i] !== arr[i - 1] + 1) {
 //       return arr[i];
 //     }
@@ -421,13 +421,57 @@
 //   }
 // }
 // console.log(Kata.getVolumeOfCuboid(2, 3, 4));
-//& 37- Formatting To Decimal Places 
-function hexToDec(hexString){
-return parseInt(hexString,16)
-}
+//& 37- Formatting To Decimal Places
+// function hexToDec(hexString){
+// return parseInt(hexString,16)
+// }
 
 //& 38- Grasshopper - Basic Function Fixer
-function addFive(num) {
-  var total = num + 5
-  return total
-}
+// function addFive(num) {
+//   var total = num + 5
+//   return total
+// }
+
+//& 39- Find The Position
+// function position(letter) {
+//   const alphabetObject = {
+//     a: 1,
+//     b: 2,
+//     c: 3,
+//     d: 4,
+//     e: 5,
+//     f: 6,
+//     g: 7,
+//     h: 8,
+//     i: 9,
+//     j: 10,
+//     k: 11,
+//     l: 12,
+//     m: 13,
+//     n: 14,
+//     o: 15,
+//     p: 16,
+//     q: 17,
+//     r: 18,
+//     s: 19,
+//     t: 20,
+//     u: 21,
+//     v: 22,
+//     w: 23,
+//     x: 24,
+//     y: 25,
+//     z: 26,
+//   };
+//   return `Position of alphabet: ${alphabetObject[letter]}`;
+// }
+// console.log(position("b"));
+
+//& 40- Opposites attract
+// function lovefunc(flower1, flower2) {
+//   return (flower1 % 2 === 0 && flower2 % 2 !== 0) ||
+//     (flower2 % 2 === 0 && flower1 % 2 !== 0)
+//     ? true
+//     : false;
+// }
+
+// console.log(lovefunc(4, 4));
