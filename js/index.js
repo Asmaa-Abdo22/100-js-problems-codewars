@@ -475,3 +475,8 @@
 // }
 
 // console.log(lovefunc(4, 4));
+//& 41- No Zeros For Heros
+function noBoringZeros(n) {
+  return n == 0 ? 0 : Number(n.toString().replace(/0+$/, ""));
+}
+console.log(noBoringZeros(96000));
