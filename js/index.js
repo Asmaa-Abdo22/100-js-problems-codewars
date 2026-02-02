@@ -476,7 +476,15 @@
 
 // console.log(lovefunc(4, 4));
 //& 41- No Zeros For Heros
-function noBoringZeros(n) {
-  return n == 0 ? 0 : Number(n.toString().replace(/0+$/, ""));
-}
-console.log(noBoringZeros(96000));
+// function noBoringZeros(n) {
+//   return n == 0 ? 0 : Number(n.toString().replace(/0+$/, ""));
+// }
+// console.log(noBoringZeros(96000));
+
+//& 42- Get The Mean Of An Array
+// function getAverage(marks) {
+//   return Math.floor(
+//     marks.reduce((res, item) => (res += item), 0) / marks.length,
+//   );
+// }
+
