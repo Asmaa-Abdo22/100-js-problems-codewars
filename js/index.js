@@ -489,15 +489,38 @@
 // }
 
 //& 43- Vowel Remover
-function shortcut(string) {
-  const vowels = ["a", "e", "i", "o", "u"];
-  let result = "";
-  for (let i = 0; i < string.length; i++) {
-    if (!vowels.includes(string[i])) {
-      result += string[i];
-    }
-  }
-  return result;
-}
+// function shortcut(string) {
+//   const vowels = ["a", "e", "i", "o", "u"];
+//   let result = "";
+//   for (let i = 0; i < string.length; i++) {
+//     if (!vowels.includes(string[i])) {
+//       result += string[i];
+//     }
+//   }
+//   return result;
+// }
 
-console.log(shortcut("hello"));
+// console.log(shortcut("hello"));
+//& 44- Remove Exclamation Marks
+// function removeExclamationMarks(s) {
+//   return s.replaceAll("!", "");
+// }
+// console.log(removeExclamationMarks("!he!llo!"));
+//& 45- Beginner - Reduce but Grow
+// function grow(arr) {
+//   return arr.reduce((result, item) => (result *= item), 1);
+// }
+// console.log(grow([1,2,3,4]))
+//& 46- Array plus array
+function arrayPlusArray(arr1, arr2) {
+  // let sum = 0;
+  // for (let i = 0; i < arr1.length; i++) {
+  //   sum += arr1[i];
+  // }
+  // for (let j = 0; j < arr2.length; j++) {
+  //   sum += arr2[j];
+  // }
+  // return sum;
+  return [...arr1 , ...arr2].reduce((sum,item)=>sum+=item,0)
+}
+console.log(arrayPlusArray([1, 2, 3], [4, 5, 6]));
