@@ -513,14 +513,14 @@
 // console.log(grow([1,2,3,4]))
 //& 46- Array plus array
 // function arrayPlusArray(arr1, arr2) {
-  // let sum = 0;
-  // for (let i = 0; i < arr1.length; i++) {
-  //   sum += arr1[i];
-  // }
-  // for (let j = 0; j < arr2.length; j++) {
-  //   sum += arr2[j];
-  // }
-  // return sum;
+// let sum = 0;
+// for (let i = 0; i < arr1.length; i++) {
+//   sum += arr1[i];
+// }
+// for (let j = 0; j < arr2.length; j++) {
+//   sum += arr2[j];
+// }
+// return sum;
 //   return [...arr1 , ...arr2].reduce((sum,item)=>sum+=item,0)
 // }
 // console.log(arrayPlusArray([1, 2, 3], [4, 5, 6]));
@@ -529,3 +529,12 @@
 //   return x.split("").reverse().join("") === x
 // }
 // console.log(isPalindrome("level"))
+
+//& 48- Grasshopper - Summation
+var summation = function (num) {
+  let newArray = Array.from({ length: num }, (_, i) => i + 1);
+  //  let newArray = Array(num).fill(0).map((_, i) => i + 1);
+  console.log(newArray);
+  return newArray.reduce((result, item) => (result += item), 0);
+};
+console.log(summation(8));
