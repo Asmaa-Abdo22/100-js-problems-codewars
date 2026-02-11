@@ -539,18 +539,26 @@
 // };
 // console.log(summation(8));
 //& 49- Printing Array elements with Comma delimiters
-function printArray(array) {
-return array.join(",")
-}
-console.log(printArray(["h","o","l","a"]))
+// function printArray(array) {
+// return array.join(",")
+// }
+// console.log(printArray(["h","o","l","a"]))
 
 //& 50- How Many Stairs Will Suzuki Climb
-function stairsIn20(s) {
-  let innerSum = 0;
-  for (let i = 0; i < s.length; i++) {
-    for (let inner = 0; inner < s[i].length; inner++) {
-      innerSum += s[i][inner];
-    }
-  }
-  return innerSum * 20;
+// function stairsIn20(s) {
+//   let innerSum = 0;
+//   for (let i = 0; i < s.length; i++) {
+//     for (let inner = 0; inner < s[i].length; inner++) {
+//       innerSum += s[i][inner];
+//     }
+//   }
+//   return innerSum * 20;
+// }
+//& 51- Remove First and Last Character Part Two
+function array(string) {
+  let result;
+  if (!string) return null;
+  result = string.split(",").slice(1, -1);
+  return result.length === 0 ? null : result.join(" ");
 }
+console.log(array("1,2,3,4"));
