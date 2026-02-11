@@ -1,12 +1,13 @@
-# 100 JavaScript Problems 🚀
+# 100 JavaScript Problems
 
-A collection of **100 JavaScript problems** designed to strengthen problem-solving skills and build a solid understanding of JavaScript from fundamentals to more advanced concepts.
+This repository contains **My Solutions** to a collection of **100 JavaScript problems** designed to strengthen problem-solving skills and build a solid understanding of JavaScript from fundamentals to more advanced concepts.
 
-This project is part of a consistent practice challenge to improve logical thinking, write clean code, and master modern JavaScript (ES6+).
+This project is part of my continuous practice journey to improve logical thinking, write clean and efficient code, and master modern JavaScript (ES6+).
 
 ---
 
-## 📌 Project Goals
+##  Project Goals
+
 - Improve problem-solving and algorithmic thinking
 - Strengthen core JavaScript fundamentals
 - Practice writing clean, readable, and efficient code
@@ -15,20 +16,21 @@ This project is part of a consistent practice challenge to improve logical think
 
 ---
 
-## 🧠 Topics Covered
-- Variables & Data Types  
-- Conditional Statements  
-- Loops  
-- Functions  
-- Arrays & Array Methods  
-- Objects  
-- Strings & Numbers  
+##  Topics Covered
+
+- Variables & Data Types
+- Conditional Statements
+- Loops
+- Functions
+- Arrays & Array Methods
+- Objects
+- Strings & Numbers
 - ES6+ Features (arrow functions, destructuring, spread, etc.)
-- Basic algorithms & logical challenges  
+- Basic algorithms & logical challenges
 
 ---
 
+##  Technologies Used
 
-## 🛠 Technologies Used
 - JavaScript (ES6+)
 - No external libraries – pure JavaScript logic
