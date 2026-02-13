@@ -555,10 +555,15 @@
 //   return innerSum * 20;
 // }
 //& 51- Remove First and Last Character Part Two
-function array(string) {
-  let result;
-  if (!string) return null;
-  result = string.split(",").slice(1, -1);
-  return result.length === 0 ? null : result.join(" ");
+// function array(string) {
+//   let result;
+//   if (!string) return null;
+//   result = string.split(",").slice(1, -1);
+//   return result.length === 0 ? null : result.join(" ");
+// }
+// console.log(array("1,2,3,4"));
+
+//& 52- Square(n) Sum
+function squareSum(numbers) {
+  return numbers.reduce((result, item) => (result += Math.pow(item, 2)), 0);
 }
-console.log(array("1,2,3,4"));
