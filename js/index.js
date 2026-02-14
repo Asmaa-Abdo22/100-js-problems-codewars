@@ -564,6 +564,11 @@
 // console.log(array("1,2,3,4"));
 
 //& 52- Square(n) Sum
-function squareSum(numbers) {
-  return numbers.reduce((result, item) => (result += Math.pow(item, 2)), 0);
+// function squareSum(numbers) {
+//   return numbers.reduce((result, item) => (result += Math.pow(item, 2)), 0);
+// }
+//& 53- Find the smallest integer in the array
+function findSmallestInt(arr) {
+  return Math.min(...arr);
 }
+console.log(findSmallestInt([34, -345, -1, 100]));
