@@ -573,8 +573,17 @@
 // }
 // console.log(findSmallestInt([34, -345, -1, 100]));
 //& 54- Is n divisible by x and y
-function isDivisible(n, x, y) {
-  if (n % x == 0 && n % y == 0) {
-    return true;
-  } else return false;
+// function isDivisible(n, x, y) {
+//   if (n % x == 0 && n % y == 0) {
+//     return true;
+//   } else return false;
+// }
+//& 55- Beginner Lost Without a Map
+function maps(x) {
+  // return x.map((item) => item * 2);
+  const doubled = [];
+  for (let i = 0; i < x.length; i++) {
+    doubled.push(x[i] * 2);
+  }
+  return doubled;
 }
