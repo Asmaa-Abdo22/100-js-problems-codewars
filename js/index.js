@@ -568,7 +568,13 @@
 //   return numbers.reduce((result, item) => (result += Math.pow(item, 2)), 0);
 // }
 //& 53- Find the smallest integer in the array
-function findSmallestInt(arr) {
-  return Math.min(...arr);
+// function findSmallestInt(arr) {
+//   return Math.min(...arr);
+// }
+// console.log(findSmallestInt([34, -345, -1, 100]));
+//& 54- Is n divisible by x and y
+function isDivisible(n, x, y) {
+  if (n % x == 0 && n % y == 0) {
+    return true;
+  } else return false;
 }
-console.log(findSmallestInt([34, -345, -1, 100]));
