@@ -588,15 +588,19 @@
 //   return doubled;
 // }
 //& 56- Fake Binary
-function fakeBin(x) {
-  let newArr = x.split("");
-  let result = newArr.map((item) => {
-    if (item < 5) {
-      item = "0";
-    } else if (item >= 5) {
-      item = "1";
-    }
-    return item;
-  });
-  return result.join("");
+// function fakeBin(x) {
+//   let newArr = x.split("");
+//   let result = newArr.map((item) => {
+//     if (item < 5) {
+//       item = "0";
+//     } else if (item >= 5) {
+//       item = "1";
+//     }
+//     return item;
+//   });
+//   return result.join("");
+// }
+//& 57- Sum Arrays
+function sum(numbers) {
+  return numbers.reduce((result, item) => (result += item), 0);
 }
