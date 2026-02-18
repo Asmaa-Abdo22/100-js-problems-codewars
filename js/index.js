@@ -579,11 +579,24 @@
 //   } else return false;
 // }
 //& 55- Beginner Lost Without a Map
-function maps(x) {
-  // return x.map((item) => item * 2);
-  const doubled = [];
-  for (let i = 0; i < x.length; i++) {
-    doubled.push(x[i] * 2);
-  }
-  return doubled;
+// function maps(x) {
+// return x.map((item) => item * 2);
+//   const doubled = [];
+//   for (let i = 0; i < x.length; i++) {
+//     doubled.push(x[i] * 2);
+//   }
+//   return doubled;
+// }
+//& 56- Fake Binary
+function fakeBin(x) {
+  let newArr = x.split("");
+  let result = newArr.map((item) => {
+    if (item < 5) {
+      item = "0";
+    } else if (item >= 5) {
+      item = "1";
+    }
+    return item;
+  });
+  return result.join("");
 }
