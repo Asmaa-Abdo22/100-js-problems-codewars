@@ -605,6 +605,11 @@
 //   return numbers.reduce((result, item) => (result += item), 0);
 // }
 //& 58- Simple multiplication
-function simpleMultiplication(number) {
-  return number % 2 == 0 ? number * 8 : number * 9;
+// function simpleMultiplication(number) {
+//   return number % 2 == 0 ? number * 8 : number * 9;
+// }
+//& 59- MakeUpperCase
+function makeUpperCase(str) {
+  return str.toUpperCase();
 }
+
