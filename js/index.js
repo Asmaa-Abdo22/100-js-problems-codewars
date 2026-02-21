@@ -601,6 +601,10 @@
 //   return result.join("");
 // }
 //& 57- Sum Arrays
-function sum(numbers) {
-  return numbers.reduce((result, item) => (result += item), 0);
+// function sum(numbers) {
+//   return numbers.reduce((result, item) => (result += item), 0);
+// }
+//& 58- Simple multiplication
+function simpleMultiplication(number) {
+  return number % 2 == 0 ? number * 8 : number * 9;
 }
