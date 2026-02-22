@@ -609,7 +609,15 @@
 //   return number % 2 == 0 ? number * 8 : number * 9;
 // }
 //& 59- MakeUpperCase
-function makeUpperCase(str) {
-  return str.toUpperCase();
+// function makeUpperCase(str) {
+//   return str.toUpperCase();
+// }
+//& 60- Array Array Array
+function explode(x) {
+  let [a, b] = x;
+  if (typeof a == "number" && typeof b == "number")
+    return new Array(a + b).fill(x);
+  else if (typeof a == "number") return new Array(a).fill(x);
+  else if (typeof b == "number") return new Array(b).fill(x);
+  else return "Void!";
 }
-
