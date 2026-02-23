@@ -613,11 +613,17 @@
 //   return str.toUpperCase();
 // }
 //& 60- Array Array Array
-function explode(x) {
-  let [a, b] = x;
-  if (typeof a == "number" && typeof b == "number")
-    return new Array(a + b).fill(x);
-  else if (typeof a == "number") return new Array(a).fill(x);
-  else if (typeof b == "number") return new Array(b).fill(x);
-  else return "Void!";
+// function explode(x) {
+//   let [a, b] = x;
+//   if (typeof a == "number" && typeof b == "number")
+//     return new Array(a + b).fill(x);
+//   else if (typeof a == "number") return new Array(a).fill(x);
+//   else if (typeof b == "number") return new Array(b).fill(x);
+//   else return "Void!";
+// }
+//& 61- Sum Mixed Array
+function sumMix(x) {
+  return x.reduce((result, item) => Number(item) + result, 0);
+  //  return x.reduce((result, item) => +item + result, 0);
 }
+console.log(sumMix([9, '3', '7', 2]))
