@@ -622,8 +622,12 @@
 //   else return "Void!";
 // }
 //& 61- Sum Mixed Array
-function sumMix(x) {
-  return x.reduce((result, item) => Number(item) + result, 0);
-  //  return x.reduce((result, item) => +item + result, 0);
+// function sumMix(x) {
+//   return x.reduce((result, item) => Number(item) + result, 0);
+//  return x.reduce((result, item) => +item + result, 0);
+// }
+// console.log(sumMix([9, '3', '7', 2]))
+//& 62- The Feast of Many Beasts
+function feast(beast, dish) {
+  return beast[0] === dish[0] && beast.at(-1) === dish.at(-1);
 }
-console.log(sumMix([9, '3', '7', 2]))
