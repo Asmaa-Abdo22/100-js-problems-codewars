@@ -628,6 +628,19 @@
 // }
 // console.log(sumMix([9, '3', '7', 2]))
 //& 62- The Feast of Many Beasts
-function feast(beast, dish) {
-  return beast[0] === dish[0] && beast.at(-1) === dish.at(-1);
+// function feast(beast, dish) {
+//   return beast[0] === dish[0] && beast.at(-1) === dish.at(-1);
+// }
+//& 63- Thinkful Logic Drills Traffic light
+function updateLight(current) {
+  switch (current) {
+    case "green":
+      return "yellow";
+    case "yellow":
+      return "red";
+    case "red":
+      return "green";
+    default:
+      return "Invalid color";
+  }
 }
