@@ -632,15 +632,19 @@
 //   return beast[0] === dish[0] && beast.at(-1) === dish.at(-1);
 // }
 //& 63- Thinkful Logic Drills Traffic light
-function updateLight(current) {
-  switch (current) {
-    case "green":
-      return "yellow";
-    case "yellow":
-      return "red";
-    case "red":
-      return "green";
-    default:
-      return "Invalid color";
-  }
+// function updateLight(current) {
+//   switch (current) {
+//     case "green":
+//       return "yellow";
+//     case "yellow":
+//       return "red";
+//     case "red":
+//       return "green";
+//     default:
+//       return "Invalid color";
+//   }
+// }
+//& 64- L1 Set Alarm
+function setAlarm(employed, vacation) {
+  return employed && !vacation;
 }
