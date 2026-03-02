@@ -645,6 +645,10 @@
 //   }
 // }
 //& 64- L1 Set Alarm
-function setAlarm(employed, vacation) {
-  return employed && !vacation;
-}
+// function setAlarm(employed, vacation) {
+//   return employed && !vacation;
+// }
+//& 65- Quarter of the year
+const quarterOf = (month) => {
+  return Math.ceil(month / 3);
+};
