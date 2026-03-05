@@ -649,6 +649,16 @@
 //   return employed && !vacation;
 // }
 //& 65- Quarter of the year
-const quarterOf = (month) => {
-  return Math.ceil(month / 3);
-};
+// const quarterOf = (month) => {
+//   return Math.ceil(month / 3);
+// };
+//& 66-  AddLength
+function addLength(str) {
+  let newArr = str.split(" ");
+  let finalArr = [];
+  for (let i = 0; i < newArr.length; i++) {
+    finalArr.push(`${newArr[i]} ${newArr[i].length}`);
+  }
+  return finalArr;
+}
+console.log(addLength("apple ban"));
