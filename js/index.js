@@ -653,12 +653,17 @@
 //   return Math.ceil(month / 3);
 // };
 //& 66-  AddLength
-function addLength(str) {
-  let newArr = str.split(" ");
-  let finalArr = [];
-  for (let i = 0; i < newArr.length; i++) {
-    finalArr.push(`${newArr[i]} ${newArr[i].length}`);
-  }
-  return finalArr;
+// function addLength(str) {
+//   let newArr = str.split(" ");
+//   let finalArr = [];
+//   for (let i = 0; i < newArr.length; i++) {
+//     finalArr.push(`${newArr[i]} ${newArr[i].length}`);
+//   }
+//   return finalArr;
+// }
+// console.log(addLength("apple ban"));
+//& 67-  How many lightsabers do you own
+function howManyLightsabersDoYouOwn(name = "Luke") {
+  return name === "Zach" ? 18 : 0;
 }
-console.log(addLength("apple ban"));
+
