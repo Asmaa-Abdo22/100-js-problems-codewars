@@ -663,7 +663,11 @@
 // }
 // console.log(addLength("apple ban"));
 //& 67-  How many lightsabers do you own
-function howManyLightsabersDoYouOwn(name = "Luke") {
-  return name === "Zach" ? 18 : 0;
+// function howManyLightsabersDoYouOwn(name = "Luke") {
+//   return name === "Zach" ? 18 : 0;
+// }
+//& 68- Twice as old
+function twiceAsOld(dadYearsOld, sonYearsOld) {
+  return Math.abs(dadYearsOld - sonYearsOld * 2);
 }
-
+console.log(twiceAsOld(55, 30));
