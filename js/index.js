@@ -667,7 +667,13 @@
 //   return name === "Zach" ? 18 : 0;
 // }
 //& 68- Twice as old
-function twiceAsOld(dadYearsOld, sonYearsOld) {
-  return Math.abs(dadYearsOld - sonYearsOld * 2);
+// function twiceAsOld(dadYearsOld, sonYearsOld) {
+//   return Math.abs(dadYearsOld - sonYearsOld * 2);
+// }
+// console.log(twiceAsOld(55, 30));
+//& 69- Keep Up the hoop
+function hoopCount(n) {
+  return n >= 10
+    ? "Great, now move on to tricks"
+    : "Keep at it until you get it";
 }
-console.log(twiceAsOld(55, 30));
