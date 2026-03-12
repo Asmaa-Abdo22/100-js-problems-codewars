@@ -672,8 +672,12 @@
 // }
 // console.log(twiceAsOld(55, 30));
 //& 69- Keep Up the hoop
-function hoopCount(n) {
-  return n >= 10
-    ? "Great, now move on to tricks"
-    : "Keep at it until you get it";
+// function hoopCount(n) {
+//   return n >= 10
+//     ? "Great, now move on to tricks"
+//     : "Keep at it until you get it";
+// }
+//& 70- Character Recognition
+function correct(string) {
+  return string.replaceAll("5", "S").replaceAll("0", "O").replaceAll("1", "I");
 }
