@@ -678,6 +678,12 @@
 //     : "Keep at it until you get it";
 // }
 //& 70- Character Recognition
-function correct(string) {
-  return string.replaceAll("5", "S").replaceAll("0", "O").replaceAll("1", "I");
+// function correct(string) {
+//   return string.replaceAll("5", "S").replaceAll("0", "O").replaceAll("1", "I");
+// }
+//& 71- How good are you really
+function betterThanAverage(classPoints, yourPoints) {
+  const sum = classPoints.reduce((sum, item) => (sum += item), 0);
+  const classPointAvg = sum / classPoints.length;
+  return yourPoints > classPointAvg;
 }
