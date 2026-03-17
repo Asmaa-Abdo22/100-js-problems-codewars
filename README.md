@@ -1,4 +1,4 @@
-# 100 JavaScript Problems
+# 100 JavaScript Problems 
 
 This repository contains **My Solutions** to a collection of **100 JavaScript problems** designed to strengthen problem-solving skills and build a solid understanding of JavaScript from fundamentals to more advanced concepts.
 
