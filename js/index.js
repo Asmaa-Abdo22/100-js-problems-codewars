@@ -709,6 +709,15 @@
 //   }
 // }
 //& 74- Find numbers which are divisible by given number
-function divisibleBy(numbers, divisor) {
-  return numbers.filter((item) => item % divisor === 0);
+// function divisibleBy(numbers, divisor) {
+//   return numbers.filter((item) => item % divisor === 0);
+// }
+//& 75- Powers of 2
+function powersOfTwo(n) {
+  let resultArr = [];
+  for (let i = 0; i <= n; i++) {
+    resultArr.push(Math.pow(2, i));
+  }
+
+  return resultArr;
 }
