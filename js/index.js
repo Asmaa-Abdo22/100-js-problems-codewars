@@ -722,6 +722,10 @@
 //   return resultArr;
 // }
 //& 76- Sum The Strings
-function sumStr(a, b) {
-  return String(Number(a) + Number(b));
+// function sumStr(a, b) {
+//   return String(Number(a) + Number(b));
+// }
+//& 77- Sort and Star
+function twoSort(s) {
+  return s.sort()[0].split("").join("***");
 }
