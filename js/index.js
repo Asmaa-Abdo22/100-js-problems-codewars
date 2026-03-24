@@ -726,6 +726,10 @@
 //   return String(Number(a) + Number(b));
 // }
 //& 77- Sort and Star
-function twoSort(s) {
-  return s.sort()[0].split("").join("***");
+// function twoSort(s) {
+//   return s.sort()[0].split("").join("***");
+// }
+//& 78- Expressions Matter
+function expressionMatter(a, b, c) {
+  return Math.max(a + b + c, a * b * c, a + b * c, a * (b + c), (a + b) * c);
 }
