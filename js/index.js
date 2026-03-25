@@ -730,6 +730,10 @@
 //   return s.sort()[0].split("").join("***");
 // }
 //& 78- Expressions Matter
-function expressionMatter(a, b, c) {
-  return Math.max(a + b + c, a * b * c, a + b * c, a * (b + c), (a + b) * c);
+// function expressionMatter(a, b, c) {
+//   return Math.max(a + b + c, a * b * c, a + b * c, a * (b + c), (a + b) * c);
+// }
+//& 79- Is it even
+function testEven(n) {
+  return Number.isInteger(n) && n % 2 == 0;
 }
