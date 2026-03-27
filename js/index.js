@@ -734,6 +734,11 @@
 //   return Math.max(a + b + c, a * b * c, a + b * c, a * (b + c), (a + b) * c);
 // }
 //& 79- Is it even
-function testEven(n) {
-  return Number.isInteger(n) && n % 2 == 0;
+// function testEven(n) {
+//   return Number.isInteger(n) && n % 2 == 0;
+// }
+//& 80- Filter out the geese
+function gooseFilter(birds) {
+  var geese = ["African", "Roman Tufted", "Toulouse", "Pilgrim", "Steinbacher"];
+  return birds.filter((item) => !geese.includes(item));
 }
