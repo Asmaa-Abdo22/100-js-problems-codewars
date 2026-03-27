@@ -738,7 +738,15 @@
 //   return Number.isInteger(n) && n % 2 == 0;
 // }
 //& 80- Filter out the geese
-function gooseFilter(birds) {
-  var geese = ["African", "Roman Tufted", "Toulouse", "Pilgrim", "Steinbacher"];
-  return birds.filter((item) => !geese.includes(item));
+// function gooseFilter(birds) {
+//   var geese = ["African", "Roman Tufted", "Toulouse", "Pilgrim", "Steinbacher"];
+//   return birds.filter((item) => !geese.includes(item));
+// }
+//& 81- What is between
+function between(a, b) {
+  let result = [];
+  for (let i = a; i <= b; i++) {
+    result.push(i);
+  }
+  return result;
 }
