@@ -743,10 +743,14 @@
 //   return birds.filter((item) => !geese.includes(item));
 // }
 //& 81- What is between
-function between(a, b) {
-  let result = [];
-  for (let i = a; i <= b; i++) {
-    result.push(i);
-  }
-  return result;
+// function between(a, b) {
+//   let result = [];
+//   for (let i = a; i <= b; i++) {
+//     result.push(i);
+//   }
+//   return result;
+// }
+//& 82- Grasshopper Debug sayHello
+function sayHello(name) {
+  return `Hello, ${name}`;
 }
