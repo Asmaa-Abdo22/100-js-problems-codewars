@@ -751,6 +751,10 @@
 //   return result;
 // }
 //& 82- Grasshopper Debug sayHello
-function sayHello(name) {
-  return `Hello, ${name}`;
+// function sayHello(name) {
+//   return `Hello, ${name}`;
+// }
+//& 83-  Grasshopper Terminal game move function
+function move(position, roll) {
+  return roll * 2 + position;
 }
