@@ -755,6 +755,10 @@
 //   return `Hello, ${name}`;
 // }
 //& 83-  Grasshopper Terminal game move function
-function move(position, roll) {
-  return roll * 2 + position;
+// function move(position, roll) {
+//   return roll * 2 + position;
+// }
+//& 84-  N th Power
+function index(array, n){
+ return Math.pow(array[n],n)
 }
