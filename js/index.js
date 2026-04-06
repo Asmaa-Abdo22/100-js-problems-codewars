@@ -759,6 +759,10 @@
 //   return roll * 2 + position;
 // }
 //& 84-  N th Power
-function index(array, n){
- return Math.pow(array[n],n)
+// function index(array, n){
+//  return Math.pow(array[n],n)
+// }
+//& 85- Grasshopper Messi goals function
+function goals(laLigaGoals, copaDelReyGoals, championsLeagueGoals) {
+  return laLigaGoals + copaDelReyGoals + championsLeagueGoals;
 }
