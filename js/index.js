@@ -763,6 +763,14 @@
 //  return Math.pow(array[n],n)
 // }
 //& 85- Grasshopper Messi goals function
-function goals(laLigaGoals, copaDelReyGoals, championsLeagueGoals) {
-  return laLigaGoals + copaDelReyGoals + championsLeagueGoals;
+// function goals(laLigaGoals, copaDelReyGoals, championsLeagueGoals) {
+//   return laLigaGoals + copaDelReyGoals + championsLeagueGoals;
+// }
+//& 86- Stringy Strings
+function stringy(size) {
+  let result = "";
+  for (let i = 0; i <= size; i++) {
+    result += i % 2 == 0 ? "1" : "0";
+  }
+  return result;
 }
