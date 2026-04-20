@@ -783,15 +783,26 @@
 //   return result;
 // }
 //& 88- Remove duplicates from list
-function distinct(a) {
-  // return [...new Set(a)]
+// function distinct(a) {
+//   // return [...new Set(a)]
 
-  let finalArr = [];
-  for (let i = 0; i < a.length; i++) {
-    if (finalArr.indexOf(a[i]) === -1) {
-      finalArr.push(a[i]);
-    }
+//   let finalArr = [];
+//   for (let i = 0; i < a.length; i++) {
+//     if (finalArr.indexOf(a[i]) === -1) {
+//       finalArr.push(a[i]);
+//     }
+//   }
+
+//   return finalArr;
+// }
+//& 89- Sum of Multiples
+function sumMul(n, m) {
+  if (n <= 0 || m <= 0 || n >= m) {
+    return "INVALID";
   }
-
-  return finalArr;
+  let sumResult = 0;
+  for (let i = n; i < m; i += n) {
+    sumResult += i;
+  }
+  return sumResult;
 }
