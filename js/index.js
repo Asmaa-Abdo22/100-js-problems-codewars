@@ -775,10 +775,23 @@
 //   return result;
 // }
 //& 87- Find Multiples of a Number
-function findMultiples(integer, limit) {
-  let result = [];
-  for (let i = integer; i <= limit; i += integer) {
-    result.push(i);
+// function findMultiples(integer, limit) {
+//   let result = [];
+//   for (let i = integer; i <= limit; i += integer) {
+//     result.push(i);
+//   }
+//   return result;
+// }
+//& 88- Remove duplicates from list
+function distinct(a) {
+  // return [...new Set(a)]
+
+  let finalArr = [];
+  for (let i = 0; i < a.length; i++) {
+    if (finalArr.indexOf(a[i]) === -1) {
+      finalArr.push(a[i]);
+    }
   }
-  return result;
+
+  return finalArr;
 }
