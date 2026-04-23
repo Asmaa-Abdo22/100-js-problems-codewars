@@ -796,13 +796,21 @@
 //   return finalArr;
 // }
 //& 89- Sum of Multiples
-function sumMul(n, m) {
-  if (n <= 0 || m <= 0 || n >= m) {
-    return "INVALID";
+// function sumMul(n, m) {
+//   if (n <= 0 || m <= 0 || n >= m) {
+//     return "INVALID";
+//   }
+//   let sumResult = 0;
+//   for (let i = n; i < m; i += n) {
+//     sumResult += i;
+//   }
+//   return sumResult;
+// }
+//& 90- Name on billboard
+function billboard(name, price = 30) {
+  let totalSum = 0;
+  for (let i = 0; i < name.length; i++) {
+    totalSum += price;
   }
-  let sumResult = 0;
-  for (let i = n; i < m; i += n) {
-    sumResult += i;
-  }
-  return sumResult;
+  return totalSum;
 }
