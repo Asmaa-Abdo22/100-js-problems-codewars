@@ -807,10 +807,15 @@
 //   return sumResult;
 // }
 //& 90- Name on billboard
-function billboard(name, price = 30) {
-  let totalSum = 0;
-  for (let i = 0; i < name.length; i++) {
-    totalSum += price;
-  }
-  return totalSum;
+// function billboard(name, price = 30) {
+//   let totalSum = 0;
+//   for (let i = 0; i < name.length; i++) {
+//     totalSum += price;
+//   }
+//   return totalSum;
+// }
+//& 91- Welcome to the city
+function sayHello(name, city, state) {
+  let joinedName = name.join(" ");
+  return `Hello, ${joinedName}! Welcome to ${city}, ${state}!`;
 }
