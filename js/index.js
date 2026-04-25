@@ -815,7 +815,14 @@
 //   return totalSum;
 // }
 //& 91- Welcome to the city
-function sayHello(name, city, state) {
-  let joinedName = name.join(" ");
-  return `Hello, ${joinedName}! Welcome to ${city}, ${state}!`;
+// function sayHello(name, city, state) {
+//   let joinedName = name.join(" ");
+//   return `Hello, ${joinedName}! Welcome to ${city}, ${state}!`;
+// }
+//& 92- DNA to RNA Conversion
+function DNAtoRNA(dna) {
+  return dna
+    .split("")
+    .map((char) => (char === "T" ? "U" : char))
+    .join("");
 }
