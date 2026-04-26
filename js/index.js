@@ -820,9 +820,21 @@
 //   return `Hello, ${joinedName}! Welcome to ${city}, ${state}!`;
 // }
 //& 92- DNA to RNA Conversion
-function DNAtoRNA(dna) {
-  return dna
-    .split("")
-    .map((char) => (char === "T" ? "U" : char))
-    .join("");
+// function DNAtoRNA(dna) {
+//   return dna
+//     .split("")
+//     .map((char) => (char === "T" ? "U" : char))
+//     .join("");
+// }
+//& 93- Lario and Muigi Pipe Problem
+function pipeFix(numbers) {
+  let min = 0;
+  let max = 0;
+  min = Math.min(...numbers);
+  max = Math.max(...numbers);
+  let newArr = [];
+  for (let i = min; i <= max; i++) {
+    newArr.push(i);
+  }
+  return newArr;
 }
