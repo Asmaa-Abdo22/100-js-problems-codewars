@@ -827,14 +827,18 @@
 //     .join("");
 // }
 //& 93- Lario and Muigi Pipe Problem
-function pipeFix(numbers) {
-  let min = 0;
-  let max = 0;
-  min = Math.min(...numbers);
-  max = Math.max(...numbers);
-  let newArr = [];
-  for (let i = min; i <= max; i++) {
-    newArr.push(i);
-  }
-  return newArr;
+// function pipeFix(numbers) {
+//   let min = 0;
+//   let max = 0;
+//   min = Math.min(...numbers);
+//   max = Math.max(...numbers);
+//   let newArr = [];
+//   for (let i = min; i <= max; i++) {
+//     newArr.push(i);
+//   }
+//   return newArr;
+// }
+//& 94- Parse nice int from char problem
+function getAge(inputString) {
+  return +inputString.split(" ")[0];
 }
