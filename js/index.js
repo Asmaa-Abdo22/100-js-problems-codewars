@@ -842,3 +842,7 @@
 function getAge(inputString) {
   return +inputString.split(" ")[0];
 }
+//& 95- Grasshopper - Check for factor
+function checkForFactor(base, factor) {
+  return base % factor === 0;
+}
