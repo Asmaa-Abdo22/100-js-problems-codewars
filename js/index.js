@@ -839,10 +839,15 @@
 //   return newArr;
 // }
 //& 94- Parse nice int from char problem
-function getAge(inputString) {
-  return +inputString.split(" ")[0];
-}
+// function getAge(inputString) {
+//   return +inputString.split(" ")[0];
+// }
 //& 95- Grasshopper - Check for factor
-function checkForFactor(base, factor) {
-  return base % factor === 0;
+// function checkForFactor(base, factor) {
+//   return base % factor === 0;
+// }
+//& 96- Will there be enough space
+function enough(cap, on, wait) {
+  let result = cap - (on + wait);
+  return result >= 0 ? 0 : Math.abs(result);
 }
