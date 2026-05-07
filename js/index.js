@@ -847,7 +847,11 @@
 //   return base % factor === 0;
 // }
 //& 96- Will there be enough space
-function enough(cap, on, wait) {
-  let result = cap - (on + wait);
-  return result >= 0 ? 0 : Math.abs(result);
+// function enough(cap, on, wait) {
+//   let result = cap - (on + wait);
+//   return result >= 0 ? 0 : Math.abs(result);
+// }
+//& 97- Grasshopper - Personalized Message
+function greet(name, owner) {
+  return name === owner ? "Hello boss" : "Hello guest";
 }
