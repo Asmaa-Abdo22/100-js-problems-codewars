@@ -852,6 +852,10 @@
 //   return result >= 0 ? 0 : Math.abs(result);
 // }
 //& 97- Grasshopper - Personalized Message
-function greet(name, owner) {
-  return name === owner ? "Hello boss" : "Hello guest";
-}
+// function greet(name, owner) {
+//   return name === owner ? "Hello boss" : "Hello guest";
+// }
+//& 98- Area or Perimeter
+const areaOrPerimeter = function (l, w) {
+  return l === w ? l * w : (l + w) * 2;
+};
