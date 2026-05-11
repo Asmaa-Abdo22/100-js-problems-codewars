@@ -860,19 +860,23 @@
 //   return l === w ? l * w : (l + w) * 2;
 // };
 //& 99- Well of Ideas Easy Version
-function well(x) {
-  let count = 0;
-  for (let i = 0; i < x.length; i++) {
-    if (x[i] === "good") {
-      count += 1;
-    }
-  }
-  if (count == 0) {
-    return "Fail!";
-  }
-  if (count <= 2) {
-    return "Publish!";
-  } else {
-    return "I smell a series!";
-  }
+// function well(x) {
+//   let count = 0;
+//   for (let i = 0; i < x.length; i++) {
+//     if (x[i] === "good") {
+//       count += 1;
+//     }
+//   }
+//   if (count == 0) {
+//     return "Fail!";
+//   }
+//   if (count <= 2) {
+//     return "Publish!";
+//   } else {
+//     return "I smell a series!";
+//   }
+// }
+//& 100- Name Shuffler
+function nameShuffler(str){
+return str.split(" ").reverse().join(" ")
 }
