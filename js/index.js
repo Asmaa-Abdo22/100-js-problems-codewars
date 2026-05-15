@@ -877,6 +877,19 @@
 //   }
 // }
 //& 100- Name Shuffler
-function nameShuffler(str){
-return str.split(" ").reverse().join(" ")
+// function nameShuffler(str){
+// return str.split(" ").reverse().join(" ")
+// }
+//& 101- Vowel Count [7KYU]
+function getCount(str) {
+  let vowels = ["a", "e", "i", "o", "u"];
+  let count = 0;
+  for (let i = 0; i < str.length; i++) {
+    for (let j = 0; j < vowels.length; j++) {
+      if (str[i] === vowels[j]) {
+        count++;
+      }
+    }
+  }
+  return count;
 }
