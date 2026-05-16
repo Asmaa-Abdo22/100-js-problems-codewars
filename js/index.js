@@ -894,7 +894,9 @@
 //   return count;
 // }
 //& 102- Highest and Lowest [7KYU]
-function highAndLow(numbers) {
-  let numbersArr = numbers.split(" ").map((item) => Number(item));
-  return `${Math.max(...numbersArr)} ${Math.min(...numbersArr)}`;
-}
+// function highAndLow(numbers) {
+//   let numbersArr = numbers.split(" ").map((item) => Number(item));
+//   return `${Math.max(...numbersArr)} ${Math.min(...numbersArr)}`;
+// }
+//& 103- Digit Digit  [7KYU]
+c
