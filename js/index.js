@@ -881,15 +881,20 @@
 // return str.split(" ").reverse().join(" ")
 // }
 //& 101- Vowel Count [7KYU]
-function getCount(str) {
-  let vowels = ["a", "e", "i", "o", "u"];
-  let count = 0;
-  for (let i = 0; i < str.length; i++) {
-    for (let j = 0; j < vowels.length; j++) {
-      if (str[i] === vowels[j]) {
-        count++;
-      }
-    }
-  }
-  return count;
+// function getCount(str) {
+//   let vowels = ["a", "e", "i", "o", "u"];
+//   let count = 0;
+//   for (let i = 0; i < str.length; i++) {
+//     for (let j = 0; j < vowels.length; j++) {
+//       if (str[i] === vowels[j]) {
+//         count++;
+//       }
+//     }
+//   }
+//   return count;
+// }
+//& 102- Highest and Lowest [7KYU]
+function highAndLow(numbers) {
+  let numbersArr = numbers.split(" ").map((item) => Number(item));
+  return `${Math.max(...numbersArr)} ${Math.min(...numbersArr)}`;
 }
