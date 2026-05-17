@@ -899,4 +899,16 @@
 //   return `${Math.max(...numbersArr)} ${Math.min(...numbersArr)}`;
 // }
 //& 103- Digit Digit  [7KYU]
-c
+// function squareDigits(numbers) {
+//   return Number(
+//     numbers
+//       .toString()
+//       .split("")
+//       .map((item) => Math.pow(item, 2))
+//       .join(""),
+//   );
+// }
+//& 104- Descending Order  [7KYU]
+function descendingOrder(n) {
+  return Number(n.toString().split("").sort((a, b) => b - a).join(""))
+}
